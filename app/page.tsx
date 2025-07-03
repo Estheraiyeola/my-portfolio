@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion"
 import { Github, Linkedin, Twitter, Mail, Phone, ExternalLink, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import MyImage from "/home/essiecodes/Downloads/my-portfolio/assets/IMG_4061.jpg"
+// import MyImage from "https://res.cloudinary.com/dzelmloet/image/upload/v1751540044/IMG_4061_oklgoq.jpg"
 import Image from "next/image"
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("hero")
@@ -91,7 +91,7 @@ export default function Portfolio() {
                 className="w-full h-full rounded-full overflow-hidden border-4 border-white shadow-2xl"
               >
                 <Image
-                  src={MyImage}
+                  src="https://res.cloudinary.com/dzelmloet/image/upload/v1751540044/IMG_4061_oklgoq.jpg"
                   alt="Esther Aiyeola"
                   width={300}
                   height={300}
